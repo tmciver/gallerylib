@@ -3,5 +3,8 @@
 	"psr-4": {
 	    "GalleryLib\\": "src/GalleryLib"
 	}
+    },
+    "require": {
+        "rhumsaa/uuid": "~2.8"
     }
 }

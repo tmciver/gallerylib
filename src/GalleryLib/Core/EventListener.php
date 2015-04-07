@@ -1,4 +1,4 @@
-<?php namespace GalleryLib\Event;
+<?php namespace GalleryLib\Core;
 
 interface EventListener {
     public function handle($event);

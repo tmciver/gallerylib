@@ -1,12 +1,16 @@
 <?php
 
-use GalleryLib\Event\Event;
-use GalleryLib\Event\EventListener;
-use GalleryLib\Event\EventBus;
+use GalleryLib\Core\Event;
+use GalleryLib\Core\EventListener;
+use GalleryLib\Core\EventBus;
 
-class TestEvent implements Event {}
+class TestEvent implements Event {
+    public function getAggregateId() {
+	return "1";
+    }
+}
 
-class TestEventListener implements EventListener {
+class EventBusTestEventListener implements EventListener {
 
     private $handled = false;
 
@@ -24,7 +28,7 @@ class EventBusTest extends PHPUnit_Framework_TestCase {
     public function testEventPublish() {
 	$eventBus = new EventBus();
 	$event = new TestEvent();
-	$listener = new TestEventListener();
+	$listener = new EventBusTestEventListener();
 	$eventBus->subscribe($listener);
 	$eventBus->publish($event);
 	$this->assertTrue($listener->handled());

@@ -1,6 +1,4 @@
-<?php
-
-namespace GalleryLib\Event;
+<?php namespace GalleryLib\Core;
 
 class EventBus {
     private $listeners;

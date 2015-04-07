@@ -1,6 +1,4 @@
-<?php
-
-namespace GalleryLib\Core;
+<?php namespace GalleryLib\Core;
 
 interface Identifiable {
     public function getId();
