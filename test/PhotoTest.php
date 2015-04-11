@@ -1,10 +1,10 @@
 <?php
 
-use GalleryLib\Core\Event;
-use GalleryLib\Core\EventListener;
-use GalleryLib\Core\EventBus;
-use GalleryLib\Events\PhotoWasAdded;
-use GalleryLib\Media\Photo;
+use Tmciver\GalleryLib\Core\Event;
+use Tmciver\GalleryLib\Core\EventListener;
+use Tmciver\GalleryLib\Core\EventBus;
+use Tmciver\GalleryLib\Events\PhotoWasAdded;
+use Tmciver\GalleryLib\Media\Photo;
 use Rhumsaa\Uuid\Uuid;
 
 class PhotoTestEventListener implements EventListener {

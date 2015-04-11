@@ -1,7 +1,7 @@
-<?php namespace GalleryLib\Media;
+<?php namespace Tmciver\GalleryLib\Media;
 
-use GalleryLib\Core\EventBus;
-use GalleryLib\Events\PhotoWasAdded;
+use Tmciver\GalleryLib\Core\EventBus;
+use Tmciver\GalleryLib\Events\PhotoWasAdded;
 
 class Photo extends Media {
 

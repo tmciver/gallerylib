@@ -1,6 +1,6 @@
 <?php
 
-namespace GalleryLib\Association;
+namespace Tmciver\GalleryLib\Association;
 
 class Tag implements Associable {
 

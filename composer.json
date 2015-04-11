@@ -1,10 +1,12 @@
 {
-    "autoload": {
-	"psr-4": {
-	    "GalleryLib\\": "src/GalleryLib"
-	}
-    },
+    "name": "Tmciver/GalleryLib",
+    "description": "A photo/video management library using event sourcing.",
     "require": {
         "rhumsaa/uuid": "~2.8"
+    },
+    "autoload": {
+	"psr-4": {
+	    "Tmciver\\GalleryLib\\": "src/"
+	}
     }
 }

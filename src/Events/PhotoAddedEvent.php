@@ -1,6 +1,6 @@
-<?php namespace GalleryLib\Events;
+<?php namespace Tmciver\GalleryLib\Events;
 
-use GalleryLib\Core\Event;
+use Tmciver\GalleryLib\Core\Event;
 
 class PhotoWasAdded implements Event {
 

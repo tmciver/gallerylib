@@ -1,8 +1,8 @@
 <?php
 
-use GalleryLib\Core\Event;
-use GalleryLib\Core\EventListener;
-use GalleryLib\Core\EventBus;
+use Tmciver\GalleryLib\Core\Event;
+use Tmciver\GalleryLib\Core\EventListener;
+use Tmciver\GalleryLib\Core\EventBus;
 
 class TestEvent implements Event {
     public function getAggregateId() {

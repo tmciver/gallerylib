@@ -1,7 +1,7 @@
-<?php namespace GalleryLib\Media;
+<?php namespace Tmciver\GalleryLib\Media;
 
-use GalleryLib\Core\EventBus;
-use GalleryLib\Core\AggregateRoot;
+use Tmciver\GalleryLib\Core\EventBus;
+use Tmciver\GalleryLib\Core\AggregateRoot;
 
 abstract class Media extends AggregateRoot {
 

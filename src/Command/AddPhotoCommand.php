@@ -1,4 +1,4 @@
-<?php namespace GalleryLib\Command;
+<?php namespace Tmciver\GalleryLib\Command;
 
 use Rhumsaa\Uuid\Uuid;
 

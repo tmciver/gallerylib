@@ -1,4 +1,4 @@
-<?php namespace GalleryLib\Core;
+<?php namespace Tmciver\GalleryLib\Core;
 
 abstract class AggregateRoot implements Identifiable, GeneratesEvents, BuiltFromEvents {
 

@@ -1,4 +1,4 @@
-<?php namespace GalleryLib\Core;
+<?php namespace Tmciver\GalleryLib\Core;
 
 class EventBus {
     private $listeners;
