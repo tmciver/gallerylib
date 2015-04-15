@@ -1,5 +1,5 @@
 {
-    "name": "Tmciver/GalleryLib",
+    "name": "tmciver/gallerylib",
     "description": "A photo/video management library using event sourcing.",
     "require": {
         "rhumsaa/uuid": "~2.8"
